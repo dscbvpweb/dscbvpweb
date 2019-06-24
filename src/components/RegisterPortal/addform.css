@@ -1,0 +1,35 @@
+.icard{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+    border-radius: 14px;
+}
+
+.cb{
+    border-radius: 24px;
+    background:linear-gradient(93.44deg, #3FC6D0 0%, #71E981 100%);
+    border:none;
+    padding:10px 22px 10px 22px;
+}
+
+.cd{
+    width: 75%;
+    margin: 0 auto
+}
+
+.form-control{
+    border: 1px solid black;
+}
+.head{
+    color:#3FC6D0
+}
+.form-control:focus {
+    border-color: gray;
+    box-shadow: 0 0 0 0.2rem rgba(38, 163, 163, 0.507);
+}
+
+input:-internal-autofill-selected {
+    /* background-color: rgb(232, 240, 254) !important; */
+    background-color: none;
+    background-image: none !important;
+    color: rgb(0, 0, 0) !important;
+}
