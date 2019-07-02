@@ -5,9 +5,9 @@ import Addform from './addform';
 export default class RegisterPortal extends Component {
     render() {
 
-        const style={
-            width:'100%'
-          };
+        // const style={
+        //     width:'100%'
+        //   };
 
         return (                    
             <div className="container">
