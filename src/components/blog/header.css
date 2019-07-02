@@ -1,0 +1,68 @@
+.header-logo-image{
+    display: block;
+    height: 30vh;
+    margin: auto;
+}
+.read-all{
+    margin-top: 4.5%;
+}
+
+.read-btn{
+    display: block;
+    background: linear-gradient(95.33deg, #3FC6D0 0%, #71E981 100%);
+    height: 5.5vh;
+    font-family: 'Bahnschrift Regular';
+    border: none;
+    border-radius: 4vw;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.read-btn:active{
+    transform: scale(1.1);
+
+}
+
+.read-btn:focus{
+    outline: none;
+}
+
+.read-text{
+    color: white;
+    padding: 2px 15px 2px 15px;
+    font-size: medium;
+}
+
+.arrow-icon{
+    padding: 0.5vw;
+    color: white;
+}
+
+.helper{
+    display: inline-block;
+    height: 7vh;
+}
+@media screen and (max-width: 600px){
+    .header{
+        height: 40vh;
+    }
+
+    .header-logo-image{
+        height: 20vh;
+    }
+
+    .read-btn{
+        font-size: 12px;
+        height: 4vh;
+        border-radius: 10vw;
+
+    }
+
+    .read-all{
+        margin-top: 22%;
+    }
+
+
+}

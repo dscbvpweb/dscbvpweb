@@ -7,6 +7,7 @@ import Navbar from './components/layout/navbar';
 import Register from './components/register/register';
 import Login from './components/login/login';
 import RegisterPortal from './components/RegisterPortal/RegisterPortal';
+import Blog from './components/blog/blog';
 
 class App extends Component {
   render(){
@@ -19,7 +20,7 @@ class App extends Component {
         <Route exact path="/registerportal" component={RegisterPortal} />
         <Route exact path="/register" component={Register} />
         <Route exact path="/login" component={Login} />
-
+        <Route exact path="/blogs" component={Blog} />
       </div>
       </Router>
     );
