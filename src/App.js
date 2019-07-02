@@ -5,6 +5,7 @@ import {BrowserRouter as Router,Route} from 'react-router-dom';
 import RegisterPortal from './components/RegisterPortal/RegisterPortal';
 
 import Register from './components/register/register';
+import Login from './components/login/login';
 
 class App extends Component {
   render(){
@@ -15,6 +16,7 @@ class App extends Component {
         {/* private route */}
         <Route exact path="/registerportal" component={RegisterPortal} />
         <Route exact path="/register" component={Register} />
+        <Route exact path="/login" component={Login} />
 
       </div>
       </Router>
