@@ -2,16 +2,18 @@ import React,{Component} from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter as Router,Route} from 'react-router-dom';
-import RegisterPortal from './components/RegisterPortal/RegisterPortal';
 
+import Navbar from './components/layout/navbar';
 import Register from './components/register/register';
 import Login from './components/login/login';
+import RegisterPortal from './components/RegisterPortal/RegisterPortal';
 
 class App extends Component {
   render(){
     return (
       <Router>
       <div className="App">
+        <Navbar />
 
         {/* private route */}
         <Route exact path="/registerportal" component={RegisterPortal} />

@@ -1,0 +1,31 @@
+.navbar-class{
+    box-shadow: 5px 0px 10px grey;
+}
+
+.logo-image{
+    height: 30px;
+}
+
+.logo-text{
+    font-size: 3.5vh;
+    font-family: 'Sunflower', sans-serif;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+.hamburger{
+    height: 30px;
+    padding-bottom: 0.5vh;
+    outline: none;
+}
+
+.nav-link{
+    color: #000000;
+    font-size: 2.5vh;
+    font-family: 'Sunflower', sans-serif;
+    font-weight: 300;
+}
