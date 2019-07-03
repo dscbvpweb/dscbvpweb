@@ -42,7 +42,7 @@ export default class Login extends Component {
                                         <div className="row">
                                             <div className="col-11">
                                                 <a href="/register">
-                                                    <h5 className="mt-2 go-login-btn">go to Register</h5>
+                                                    <h5 className="mt-2 go-login-btn">register</h5>
                                                 </a>
                                             </div>
                                         </div>               
