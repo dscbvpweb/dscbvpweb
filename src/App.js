@@ -8,6 +8,7 @@ import Register from './components/register/register';
 import Login from './components/login/login';
 import RegisterPortal from './components/RegisterPortal/RegisterPortal';
 import Blog from './components/blog/blog';
+import RSVP from './components/RSVPTemplate/RSVPTemplate'
 
 class App extends Component {
   render(){
@@ -21,6 +22,7 @@ class App extends Component {
         <Route exact path="/register" component={Register} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/blogs" component={Blog} />
+        <Route exact path="/RSVP/confirmed" component={RSVP} />
       </div>
       </Router>
     );
