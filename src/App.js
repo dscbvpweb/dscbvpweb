@@ -8,13 +8,10 @@ import Register from './components/register/register';
 import Login from './components/login/login';
 import RegisterPortal from './components/RegisterPortal/RegisterPortal';
 import Blog from './components/blog/blog';
-<<<<<<< HEAD
 import NewEvent from './components/newEvent/newEvent';
 import SideBar from './components/sideBar/sideBar';
 import EventStats from './components/stats/eventStats';
-=======
 import RSVP from './components/RSVPTemplate/RSVPTemplate'
->>>>>>> 6c0ccc23a8161e356a18f8b3eed2778455c8447f
 
 class App extends Component {
   render(){
