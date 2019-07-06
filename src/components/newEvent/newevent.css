@@ -1,0 +1,24 @@
+@font-face{
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('assests/Fonts/bahnschrift-font/BAHNSCHRIFT 1.woff') format('woff');
+}
+
+label{
+    font-size: 1.5em;
+}
+
+.radius{
+    border-radius: 20px;
+}
+
+.input-radius{
+    border-radius: 10px;
+}
+
+body{
+    padding: 50px 0 0 0;
+    font-family: 'Bahnschrift Regular';
+}
+

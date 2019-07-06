@@ -1,0 +1,24 @@
+
+
+@media screen and (min-width:1200px){
+    .fit{
+        margin-left: 175px;
+    }
+}
+
+.rbgrad{
+    background-image: linear-gradient(to right,#c94647,#4486f7);
+}
+
+.ybgrad{
+    background-image: linear-gradient(to right,#e8bd34,#093d96);
+}
+
+.bggrad{
+    background-image: linear-gradient(to right,#319cc8,#0b9d5d);
+}
+
+.rograd{
+    background-image: linear-gradient(to right,#d94134,#f54d27);
+
+}
