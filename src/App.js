@@ -12,6 +12,7 @@ import NewEvent from './components/newEvent/newEvent';
 import SideBar from './components/sideBar/sideBar';
 import EventStats from './components/stats/eventStats';
 import RSVP from './components/RSVPTemplate/RSVPTemplate'
+import Achievements from './components/Achievements/achievements'
 
 class App extends Component {
   render(){
@@ -29,6 +30,7 @@ class App extends Component {
         <Route exact path="/login" component={Login} />
         <Route exact path="/blogs" component={Blog} />
         <Route exact path="/RSVP/confirmed" component={RSVP} />
+        <Route exact path="/achievements" component={Achievements} />
       </div>
       
       </Router>
