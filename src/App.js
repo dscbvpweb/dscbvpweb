@@ -12,7 +12,7 @@ import NewEvent from './components/newEvent/newEvent';
 import SideBar from './components/sideBar/sideBar';
 import EventStats from './components/stats/eventStats';
 import RSVP from './components/RSVPTemplate/RSVPTemplate'
-import Achievements from './components/Achievements/achievements'
+import Achievements from './components/Achievements/Achievements'
 
 class App extends Component {
   render(){
