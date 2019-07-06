@@ -19,10 +19,10 @@ class App extends Component {
     return (
       <Router>
       <div className="App">
-        {/* <Navbar /> */}
+        <Navbar />
         {/* <NewEvent></NewEvent> */}
         {/* <SideBar/> */}
-        <EventStats/>
+        {/* <EventStats/> */}
 
         {/* private route */}
         <Route exact path="/registerportal" component={RegisterPortal} />

@@ -19,11 +19,23 @@ section{
 }
 
 .top{
-    font-size: 4vh;
-    padding: 2vh;
     justify-content: space-between;
+}
+
+.left{
+    font-size: 4vh;
+    padding: 4vh;
+    padding-bottom: 0vh;    
+}
+
+.right{
+    font-size: 4vh;
+    padding: 4vh;
+    padding-bottom: 0vh;
 }
 
 .bottom{
     color: #646262;
+    padding: 4vh;  
+    padding-top: 2vh; 
 }

@@ -15,12 +15,6 @@ export const Header = () => {
         <Styledheader>
             <span className="helper"></span>
             <img className="header-logo-image" src={dsc} alt="DSC Logo" />
-            <div className="read-all">
-                <button className="read-btn">
-                    <span className="read-text">Read on Medium</span>
-                    <i className="fas fa-arrow-right arrow-icon"></i>
-                </button>
-            </div>
         </Styledheader>
         </header>
     )

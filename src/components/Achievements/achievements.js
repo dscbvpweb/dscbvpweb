@@ -1,17 +1,17 @@
 import React, { Component } from 'react'
-import Header from '../blog/header';
-import achievementsCard from './achievementsCard';
+import Header from './header';
+import AchievementsCard from './AchievementsCard';
 
-class Blog extends Component {
+class Achievements extends Component {
     render() {
         return (
             <div>
             <Header />
-            <achievementsCard />                
+            <AchievementsCard />                
             </div>
         )
     }
 }
 
 
-export default Blog;
+export default Achievements;
