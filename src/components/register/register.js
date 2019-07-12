@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Helmet } from 'react-helmet'
+
 import './register.css';
 import logo1 from '../../images/logo1.png';
 import styled from 'styled-components';
@@ -14,6 +16,10 @@ export default class Register extends Component {
         `
         return (
             <div>
+                <Helmet>
+                    <title>Register</title>
+                </Helmet>
+
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-4 col-md-2">

@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Helmet } from 'react-helmet'
+
 import './RegisterPortal.css';
 import Addform from './addform';
 
@@ -11,6 +13,9 @@ export default class RegisterPortal extends Component {
 
         return (                    
             <div className="container">
+                <Helmet>
+                    <title>Register</title>
+                </Helmet>
 
                 <Addform />
                 <div className="cards">

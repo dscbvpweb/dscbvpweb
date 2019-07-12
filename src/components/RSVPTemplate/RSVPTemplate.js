@@ -1,4 +1,6 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
+
 import './styles.css'
 import { DSClogo } from '../../SVG Icons/DSC logo.svg'
 import { RSVPimage } from '../../SVG Icons/RSVP side image.svg'
@@ -7,6 +9,9 @@ import { RSVPimage } from '../../SVG Icons/RSVP side image.svg'
 function RSVP(){
     return(
         <div>
+            <Helmet>
+                <title>RSVP</title>
+            </Helmet>
             <div className="container flex-disp">
                 <div className="left">
                     <div className="rsvp">

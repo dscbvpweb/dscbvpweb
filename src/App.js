@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter as Router,Route} from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import Navbar from './components/layout/navbar';
 import Register from './components/register/register';
@@ -15,11 +16,16 @@ import RSVP from './components/RSVPTemplate/RSVPTemplate'
 import Achievements from './components/Achievements/Achievements'
 import OSP from './components/OSP/OSP'
 
+
 class App extends Component {
   render(){
     return (
       <Router>
       <div className="App">
+        <Helmet titleTemplate="DSC BVP - %s" defaultTitle="DSC BVP">
+          <meta name="description" content="DSC BVP Official Website" />
+        </Helmet>
+
         <Navbar />
         {/* <NewEvent></NewEvent> */}
         {/* <SideBar/> */}

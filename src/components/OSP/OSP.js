@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Helmet } from 'react-helmet'
+
 import Header from '../Achievements/header';
 import OSPCards from './OSPCards';
 
@@ -6,8 +8,13 @@ class OSP extends Component {
     render() {
         return (
             <div>
-            <Header />
-            <OSPCards />                
+                <Helmet>
+                    <title>OSP</title>
+                </Helmet>
+
+
+                <Header />
+                <OSPCards />                
             </div>
         )
     }

@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet'
+
 import SideBar from '../sideBar/sideBar';
 
 class NewEvent extends Component {
     render() {
         return (
+            <div>
+                <Helmet>
+                    <title>New Event</title>
+                </Helmet>
             <React.Fragment>
                 <SideBar/>
 
@@ -72,7 +78,7 @@ class NewEvent extends Component {
 
                 </div>
             </React.Fragment>
-
+            </div>
 
         );
     }

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Helmet } from 'react-helmet'
+
 import SideBar from '../sideBar/sideBar'
 import './eventStats.css';
 
@@ -14,6 +16,11 @@ let color = "";
 
 const eventStats = () => {
     return (
+        <div>
+        <Helmet>
+            <title>Events</title>
+        </Helmet>
+
         <React.Fragment>
             <SideBar />
             <div className="container mt-5 fit">
@@ -57,7 +64,7 @@ const eventStats = () => {
                 </div>
             </div>
         </React.Fragment>
-
+        </div>
 
     );
 }
