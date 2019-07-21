@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#sidebarqanda{
+    top:58px;
+    margin:0px;
+    padding:0px;
+    position: fixed;
+    width:250px;
+    height:100%;
+    border-right: 1px solid grey;
+    box-shadow: 2px 0px lightslategray;
+    transition: all 500ms linear;
+    left:-250px;
+    background-color: whitesmoke;
+    z-index: 1;
+}
+
+#sidebarqanda.active{
+    left:0px;
+}
+
+
+#sidebarqanda ul li{
+    list-style: none;
+    padding:10px 30px;
+}
+
+#sidebarqanda .toggle-button{
+    position:absolute;
+    left:270px;
+    top:15px;
+}
+
+#sidebarqanda .toggle-button span{
+    display:block;
+    width:30px;
+    height:5px;
+    background:black;
+    margin: 5px 0;
+}
+
+@media screen and (min-width: 1200px) {
+    #sidebarqanda{
+        left:0px;
+    }
+    #sidebarqanda .toggle-button{
+        display: none; 
+    }
+}
+
+

@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.css'
-import { DSClogo } from '../../SVG Icons/DSC logo.svg'
-import { RSVPimage } from '../../SVG Icons/RSVP side image.svg'
+// import { DSClogo } from '../../SVG Icons/DSC logo.svg'
+// import { RSVPimage } from '../../SVG Icons/RSVP side image.svg'
 
 
 function RSVP(){
@@ -29,12 +29,12 @@ function RSVP(){
                         </div>
                     </div>
                     <div className="logo">
-                        <img id="dsclogo" src={DSClogo} alt="DSC Logo" />
+                        <img id="dsclogo" src="" alt="DSC Logo" />
                         <span id="dsc">DSC BVP</span>
                     </div>
                 </div>
                 <div className="right">
-                    <img className="image" src={RSVPimage} alt="side Image" />
+                    <img className="image" src="" alt="side Image" />
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Header from './header';
-import AchievementsCard from './AchievementsCard';
+import AchievementsCard from './achievementsCard';
 
 class Achievements extends Component {
     render() {
