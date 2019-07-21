@@ -1,0 +1,48 @@
+body{
+    font-family: 'Sunflower', sans-serif;
+}
+
+section{
+    margin-top: 10%;
+}
+
+.flex-disp{
+    display: flex;
+}
+
+.card{
+    margin-top: 4vh;
+    box-shadow: 0px 0px 6px grey;
+    background: #ffffff;
+    border-radius: 16px;
+    margin-bottom: 40px;
+}
+
+.top{
+    justify-content: space-between;
+}
+
+.left{
+    font-size: 4vh;
+    padding: 4vh;
+    padding-bottom: 0vh;    
+}
+
+.right{
+    font-size: 4vh;
+    padding: 4vh;
+    padding-bottom: 0vh;
+}
+
+.bottom{
+    color: #646262;
+    padding: 4vh;  
+    padding-top: 2vh; 
+}
+
+
+@media screen and (max-width: 600px){
+    .top{
+        justify-content: center;
+    }
+}

@@ -12,16 +12,18 @@ import NewEvent from './components/newEvent/newEvent';
 import SideBar from './components/sideBar/sideBar';
 import EventStats from './components/stats/eventStats';
 import RSVP from './components/RSVPTemplate/RSVPTemplate'
+import Achievements from './components/Achievements/Achievements'
+import OSP from './components/OSP/OSP'
 
 class App extends Component {
   render(){
     return (
       <Router>
       <div className="App">
-        {/* <Navbar /> */}
+        <Navbar />
         {/* <NewEvent></NewEvent> */}
         {/* <SideBar/> */}
-        <EventStats/>
+        {/* <EventStats/> */}
 
         {/* private route */}
         <Route exact path="/registerportal" component={RegisterPortal} />
@@ -29,6 +31,8 @@ class App extends Component {
         <Route exact path="/login" component={Login} />
         <Route exact path="/blogs" component={Blog} />
         <Route exact path="/RSVP/confirmed" component={RSVP} />
+        <Route exact path="/achievements" component={Achievements} />
+        <Route exact path="/osp" component={OSP} />
       </div>
       
       </Router>

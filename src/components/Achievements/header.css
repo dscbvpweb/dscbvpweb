@@ -1,0 +1,22 @@
+.header-logo-image{
+    display: block;
+    height: 30vh;
+    margin: auto;
+}
+
+.helper{
+    display: inline-block;
+    height: 7vh;
+}
+
+@media screen and (max-width: 600px){
+    .header{
+        height: 10vh;
+    }
+
+    .header-logo-image{
+        height: 20vh;
+    }
+
+
+}
