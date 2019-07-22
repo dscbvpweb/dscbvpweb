@@ -4,10 +4,10 @@ body{
 }
 
 #sidebarqanda{
-    top:58px;
+    top:0px;
     margin:0px;
     padding:0px;
-    position: fixed;
+    position: relative;
     width:250px;
     height:100%;
     border-right: 1px solid grey;
