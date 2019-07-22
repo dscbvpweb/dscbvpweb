@@ -7,7 +7,7 @@ export default class Navbar extends Component {
     render() {
         return (
             <div>
-                    <nav className="navbar navbar-expand-sm navbar-class">              
+                    <nav className="navbar navbar-expand-sm navbar-class" style={{zIndex:"100"}}>              
                         
                         <span className="logo-container">
                             <img className="logo-image" src={dsc} alt="DSC Logo" />
